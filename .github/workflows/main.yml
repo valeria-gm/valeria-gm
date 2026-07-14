@@ -15,6 +15,8 @@ on:
 
 jobs:
   generate:
+    permissions: 
+      contents: write # para que el bot pueda subir cambios
     runs-on: ubuntu-latest
     timeout-minutes: 10
     
